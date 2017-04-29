@@ -1,0 +1,32 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'link',
+1 verbose cli   '@angular/cli' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.2
+4 verbose config Skipping project config: /Users/gabo/.npmrc. (matches userconfig)
+5 verbose link symlinking /usr/local/lib/node_modules/@angular/cli to /Users/gabo/node_modules/@angular/cli
+6 silly gentlyRm /Users/gabo/node_modules/@angular/cli is being purged
+7 verbose gentlyRm don't care about contents; nuking /Users/gabo/node_modules/@angular/cli
+8 verbose stack Error: EACCES: permission denied, mkdir '/Users/gabo/node_modules/@angular'
+8 verbose stack     at Error (native)
+9 verbose cwd /Users/gabo/svn/horizon/ng-show/ng-blueprint
+10 error Darwin 16.5.0
+11 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "link" "@angular/cli"
+12 error node v6.10.2
+13 error npm  v3.10.10
+14 error path /Users/gabo/node_modules/@angular
+15 error code EACCES
+16 error errno -13
+17 error syscall mkdir
+18 error Error: EACCES: permission denied, mkdir '/Users/gabo/node_modules/@angular'
+18 error     at Error (native)
+18 error  { Error: EACCES: permission denied, mkdir '/Users/gabo/node_modules/@angular'
+18 error     at Error (native)
+18 error   errno: -13,
+18 error   code: 'EACCES',
+18 error   syscall: 'mkdir',
+18 error   path: '/Users/gabo/node_modules/@angular' }
+19 error Please try running this command again as root/Administrator.
+20 verbose exit [ -13, true ]
